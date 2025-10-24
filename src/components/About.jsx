@@ -1,12 +1,12 @@
 import React from "react";
 import "../Styles/About.css";
-import { Container } from "react-bootstrap";
+
 
 function About() {
   return (
     <section id="about" className="about">
       <h2>About Me</h2>
-      <p>
+      <p className="about-text" align="center">
         Hi! I’m Vishal, a passionate Full Stack Developer and a B.Sc. Statistics
         undergraduate at PSG College of Arts & Science, Coimbatore. I love
         transforming ideas into interactive, user-friendly web applications. My

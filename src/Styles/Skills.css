@@ -1,0 +1,41 @@
+.skills {
+  text-align: center;
+  padding: 120px 70px;
+  margin-top:30px;
+  background-color: #0d1117;
+  color: #e6edf3;
+}
+
+.skills h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #58a6ff;
+}
+
+.skills ul {
+  list-style: none;
+  padding: 0;
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+.skills-logos {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+.skills-logos img {
+  width: 90px;
+  height: 90px;
+  object-fit: contain;
+  transition: transform 0.3s ease, filter 0.3s ease;
+  filter: grayscale(60%);
+}
+
+.skills-logos img:hover {
+  transform: scale(1.15);
+  filter: grayscale(0%);
+}

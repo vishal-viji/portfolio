@@ -1,0 +1,79 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #0d1117;
+  color: #c9d1d9;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+h1, h2 {
+  color: #58a6ff;
+}
+
+section {
+  padding: 60px 10%;
+}
+
+a {
+  color: #58a6ff;
+  text-decoration: none;
+}
+
+.btn {
+  background: #58a6ff;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  margin-right: 10px;
+  display: inline-block;
+}
+
+.btn.secondary {
+  background: transparent;
+  border: 1px solid #58a6ff;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 10%;
+  background: #161b22;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.hero {
+  text-align: center;
+  padding: 100px 10%;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+}
+
+.project-card {
+  background: #161b22;
+  padding: 20px;
+  border-radius: 12px;
+  transition: transform 0.3s;
+}
+
+.project-card:hover {
+  transform: scale(1.05);
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  background: #161b22;
+}

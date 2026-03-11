@@ -1,0 +1,109 @@
+.about {
+  background-color: #0d1117;
+  font-size: large;
+  color: #e6edf3;
+  padding: 120px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.about h2 {
+  font-size: 3rem;
+  color: #58a6ff;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.about h2::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #58a6ff;
+  margin: 10px auto 0;
+  border-radius: 5px;
+}
+
+.about-content {
+  max-width: 800px;
+  line-height: 1.8;
+  font-size: 3rem;
+  color: #c9d1d9;
+  margin-bottom: 40px;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.about-highlight {
+  color: #58a6ff;
+  font-weight: 600;
+}
+
+.about-photo {
+  border-radius: 50%;
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border: 3px solid #58a6ff;
+  margin-bottom: 25px;
+  box-shadow: 0 0 15px rgba(88, 166, 255, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.about-photo:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 25px rgba(88, 166, 255, 0.5);
+}
+
+/* Button / CV Link */
+.about-btn {
+  text-decoration: none;
+  color: #0d1117;
+  background-color: #58a6ff;
+  padding: 10px 25px;
+  border-radius: 10px;
+  font-weight: 500;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.about-btn:hover {
+  background-color: #1f6feb;
+  transform: translateY(-3px);
+}
+
+/* Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .about-content {
+    font-size: 0.95rem;
+    padding: 0 15px;
+  }
+
+  .about h2 {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-photo {
+    width: 130px;
+    height: 130px;
+  }
+
+  .about-btn {
+    padding: 8px 20px;
+    font-size: 0.9rem;
+  }
+}

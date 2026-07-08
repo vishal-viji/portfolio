@@ -14,13 +14,13 @@ function Projects() {
       title: "E-commerce Website",
       description: "A React + Django web app to search Products using an external API.",
       tech: "React, Node.js, API Integration",
-      link: "ecomerce-guvi.netlify.app",
+      link: "https://ecomerce-guvi.netlify.app",
     },
      {
       title: "Youtube Clone",
       description: "A Youtube clone with search functionality and youtube videos.",
       tech: "Node.js, Express, MongoDB,React",
-      link: "clone-ytub.netlify.app",
+      link: "https://clone-ytub.netlify.app",
     },
   ];
 

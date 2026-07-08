@@ -8,7 +8,7 @@ function Projects() {
       title: "Social Media App",
       description: "A full-stack social media project with login and logout page.",
       tech: "Node.js, Express, MongoDB, React",
-      link: "media-guvi.netlify.app",
+      link: "https://media-guvi.netlify.app/login",
     },
     {
       title: "E-commerce Website",

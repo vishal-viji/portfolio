@@ -20,7 +20,7 @@ function Projects() {
       title: "Youtube Clone",
       description: "A Youtube clone with search functionality and youtube videos.",
       tech: "Node.js, Express, MongoDB,React",
-      link: "https://clone-ytub.netlify.app",
+      link: "https://y-tubeclon.netlify.app",
     },
   ];
 

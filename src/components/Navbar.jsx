@@ -18,8 +18,8 @@ function Navbar() {
 
 
       <a
-  href="/Vishal-FSD.pdf"
-  download="Vishal-FSD.pdf"
+  href="/Vishal-Resume.pdf"
+  download="Vishal-Resume.pdf"
   className="resume-btn"
 >
   Download Resume

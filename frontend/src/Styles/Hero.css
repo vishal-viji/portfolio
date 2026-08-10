@@ -1,0 +1,13 @@
+.hero h2{
+    font-size: 2rem;
+    margin: 10px 0
+}   
+
+.hero p{
+    font-size: 1.5rem;
+    color: #f4f1f1;
+    margin-bottom: 20px;
+}
+.hero-buttons .btn{
+    margin: 10px;
+}

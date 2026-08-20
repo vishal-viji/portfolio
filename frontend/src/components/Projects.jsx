@@ -7,7 +7,7 @@ function Projects() {
       title: "Social Media App",
       description: "Users can create profiles, share posts with images, like and comment on posts, and chat with other users in real time.",
       tech: "Node.js, Express, MongoDB, React",
-      link: "https://media-guvi.netlify.app",
+      link: "https://social-media-delta-inky.vercel.app",
       sourceCode: "https://github.com/vishal-viji/Social-media",
     },
     {
@@ -20,7 +20,7 @@ function Projects() {
     {
       title: "Youtube Clone",
       description: "Users can search for videos, watch them in an embedded player, and browse related video suggestions similar to the real YouTube experience.",
-      tech: "Node.js, Express, MongoDB, React",
+      tech: "Node.js, Express, MySQL, React",
       link: "https://y-tubeclon.netlify.app",
       sourceCode: "https://github.com/vishal-viji/Youtube-Clone",
     },

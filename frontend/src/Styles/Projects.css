@@ -74,3 +74,11 @@
   background: #58a6ff;
   color: #0d1117;
 }
+
+
+.project-links {
+  margin-top: 10px;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+} 

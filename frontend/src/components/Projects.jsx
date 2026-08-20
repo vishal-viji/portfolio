@@ -3,24 +3,26 @@ import '../Styles/Projects.css';
 
 function Projects() {
   const projects = [
-    
     {
       title: "Social Media App",
-      description: "A full-stack social media project with login and logout page.",
+      description: "Users can create profiles, share posts with images, like and comment on posts, and chat with other users in real time.",
       tech: "Node.js, Express, MongoDB, React",
       link: "https://media-guvi.netlify.app",
+      sourceCode: "https://github.com/vishal-viji/Social-media",
     },
     {
       title: "E-commerce Website",
-      description: "A React + Django web app to search Products using an external API.",
+      description: "Users can search and filter products, view detailed product pages, add items to a cart, and simulate checkout using data pulled from an external product API.",
       tech: "React, Node.js, API Integration",
       link: "https://ecomerce-guvi.netlify.app",
+      sourceCode: "https://github.com/vishal-viji/Ecommerce-2",
     },
-     {
+    {
       title: "Youtube Clone",
-      description: "A Youtube clone with search functionality and youtube videos.",
-      tech: "Node.js, Express, MongoDB,React",
+      description: "Users can search for videos, watch them in an embedded player, and browse related video suggestions similar to the real YouTube experience.",
+      tech: "Node.js, Express, MongoDB, React",
       link: "https://y-tubeclon.netlify.app",
+      sourceCode: "https://github.com/vishal-viji/Youtube-Clone",
     },
   ];
 
@@ -30,11 +32,14 @@ function Projects() {
       <div className="project-grid">
         {projects.map((p, i) => (
           <div key={i} className="project-card">
-            <h3>{p.title}</h3>  
+            <h3>{p.title}</h3>
             <p>{p.description}</p>
-            <p>{p.sourceCode}</p>
             <p><strong>Tech Stack:</strong> {p.tech}</p>
-            <a href={p.link} target="_blank" rel="noreferrer">click  to  redirect</a>
+            <div className="project-links">
+              <a href={p.link} target="_blank" rel="noreferrer">Live Demo</a>
+              {" | "}
+              <a href={p.sourceCode} target="_blank" rel="noreferrer">Source Code</a>
+            </div>
           </div>
         ))}
       </div>

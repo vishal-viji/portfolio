@@ -4,7 +4,7 @@ import "../Styles/Contact.css";
 // Base URL of your deployed backend API.
 // Set REACT_APP_API_URL in a .env file (or your Netlify site's env vars).
 // Example: REACT_APP_API_URL=https://your-backend.onrender.com
-const API_URL = process.env.REACT_APP_API_URL || "https://social-media-backend-2zm2.onrender.com";
+const API_URL = process.env.REACT_APP_API_URL || "https://portfolio-eaoz.onrender.com";
 
 function Contact() {
   const [formData, setFormData] = useState({

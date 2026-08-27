@@ -1,11 +1,13 @@
 import React from "react";
 import "../Styles/About.css";
+import profilePhoto from "../assets/vishal.png";
 
 
 function About() {
   return (
     <section id="about" className="about">
       <h2>About Me</h2>
+      <img src={profilePhoto} alt="Vishal" className="about-photo" />
       <p className="about-text" align="justify">
         Hi! I’m Vishal, a passionate Full Stack Developer and a B.Sc. Statistics
         undergraduate at PSG College of Arts & Science, Coimbatore. I love

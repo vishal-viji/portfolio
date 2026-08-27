@@ -15,7 +15,6 @@ function Projects() {
       title: "E-commerce Website",
       description:
         "A shopping site that pulls live product data from an external API, so browsing, filtering, and checking out feels like using a real store rather than a static demo. I spent a lot of time on the cart logic and making sure filtering products by category or price actually feels smooth.",
-      tech: "React, python, ",
       tech: "React, python, django, MySQL",
       link: "https://ecomerce-guvi.netlify.app",
       sourceCode: "https://github.com/vishal-viji/Ecommerce-2",

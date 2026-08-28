@@ -16,7 +16,7 @@ function About() {
         work — and now, I enjoy building them using modern web technologies. I
         specialize in JavaScript, Node.js, React, and Express, and I have
         experience working with MongoDB and REST APIs. I’ve also built projects
-        like a Bookstore Application and a Movie Search Website, where I focused
+        like a Social Media and a Movie Search Website, where I focused
         on seamless UI and efficient backend logic. Beyond coding, I’m
         analytical and data-driven — my statistics background helps me think
         logically and make informed decisions while solving complex problems. I

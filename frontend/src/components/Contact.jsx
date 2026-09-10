@@ -64,7 +64,7 @@ function Contact() {
       ref={ref}
       className={`contact reveal ${isVisible ? "visible" : ""}`}
       style={{
-        backgroundImage: `linear-gradient(rgba(13,17,23,0.85), rgba(13,17,23,0.85)), url(${contactBg})`,
+        backgroundImage: `linear-gradient(rgba(13,17,23,0.5), rgba(13,17,23,0.5)), url(${contactBg})`,
       }}
     >
       <h2>Contact Me</h2>

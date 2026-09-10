@@ -1,11 +1,11 @@
 .hero h2{
     font-size: 2rem;
-    margin: 10px 0
+    margin: 10px 0;
 }   
 
 .hero p{
     font-size: 1.5rem;
-    color: #f4f1f1;
+    color: #f2b203;
     margin-bottom: 20px;
 }
 .hero-buttons .btn{
@@ -17,7 +17,14 @@
   background-position: center;
   background-repeat: no-repeat;
   color: #fff;
-  padding-top: 140px;
+  min-height: 100vh;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-top: 110px;
 }
 
 @media (max-width: 768px) {

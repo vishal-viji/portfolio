@@ -1,30 +1,36 @@
 .skills {
   text-align: center;
-  padding: 120px 70px;
-  margin-top:30px;
-  background-color: #0d1117;
-  color: #e6edf3;
+  padding: 1px 40px;
+  background-color: #eff1f3;
+  color: #ffbf00;
+  min-height: 100vh;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .skills h2 {
-  font-size: 2rem;
-  margin-bottom: 10px;
-  color: #58a6ff;
+  font-size: 3.5rem;
+  margin-bottom: 1px;
+  color: #ffbf00;
 }
 
 .skills ul {
   list-style: none;
   padding: 0;
-  font-size: 1.1rem;
-  line-height: 1.8;
+  font-size: 1rem;
+  line-height: 1;
 }
 
 .skills-logos {
-  margin-top: 60px;
+  margin-top: 70px;
+  margin-bottom: 110px;
   display:  flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 50px;
+  gap: 75px;
 }
 
 .skills-logos img {
@@ -42,7 +48,7 @@
 
 .skills {
   background-size: cover;
-  background-position: center;
+  background-position: fixed;
   background-repeat: no-repeat;
 }
 

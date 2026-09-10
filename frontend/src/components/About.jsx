@@ -14,7 +14,7 @@ function About() {
       ref={ref}
       className={`about reveal ${isVisible ? "visible" : ""}`}
       style={{
-        backgroundImage: `linear-gradient(rgba(13,17,23,0.88), rgba(13,17,23,0.88)), url(${aboutBg})`,
+        backgroundImage: `linear-gradient(rgba(13,17,23,0.5), rgba(13,17,23,0.5)), url(${aboutBg})`,
       }}
     >
       <h2>About Me</h2>

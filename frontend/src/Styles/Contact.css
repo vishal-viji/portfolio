@@ -1,7 +1,8 @@
 /* CONTACT SECTION */
 .contact {
   min-height: 100vh;
-  padding: 80px 20px;
+  box-sizing: border-box;
+  padding: 10px 10px;
   background-color: #0d1117;
   color: #e5e7eb;
   display: flex;
@@ -13,14 +14,15 @@
 /* HEADINGS */
 .contact h2 {
   font-size: 3rem;
-  color: #60a5fa;
-  margin-bottom: 10px;
+  color: #ffbf00;
+  margin-bottom: 0px;
+  margin-top: -40px;
   letter-spacing: 1px;
 }
 
 .contact p {
-  color: #9ca3af;
-  margin-bottom: 25px;
+  color: #ffbf00;
+  margin-bottom: 2px;
   font-size: 1.05rem;
 }
 
@@ -61,8 +63,8 @@
 .contact-form input:focus,
 .contact-form textarea:focus {
   outline: none;
-  border-color: #60a5fa;
-  box-shadow: 0 0 0 1px #60a5fa;
+  border-color: #ffbf00;
+  box-shadow: 0 0 0 1px #ffbf00;
 }
 
 /* BUTTON */
@@ -74,14 +76,14 @@
   font-size: 1rem;
   font-weight: 600;
   cursor: pointer;
-  background: linear-gradient(135deg, #3b82f6, #60a5fa);
+  background: linear-gradient(135deg, #f9dc00eb, #fa7460);
   color: #020617;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .contact-form button:hover {
   transform: translateY(-2px);
-  box-shadow: 0 12px 25px rgba(59, 130, 246, 0.4);
+  box-shadow: 0 12px 25px rgb(255, 208, 0);
 }
 
 /* CONTACT LINKS */
@@ -96,7 +98,7 @@
 }
 
 .contact-links a {
-  color: #60a5fa;
+  color: #fcbd00;
   margin-left: 6px;
   text-decoration: none;
   transition: color 0.2s ease;

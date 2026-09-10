@@ -1,13 +1,19 @@
 .projects {
   background-color: #0d1117;
   color: #e6edf3;
-  padding: 150px 30px;
+  padding: 30px 60px;
   text-align: center;
+  min-height: 90vh;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
 }
 
 .projects h2 {
-  font-size: 2rem;
-  color: #58a6ff;
+  font-size: 3rem;
+  color: #ffbf00;
   margin-bottom: 40px;
 }
 
@@ -19,18 +25,20 @@
 }
 
 .project-card {
-  background-color: #161b22;
+  background-color: #060b10;
   border-radius: 15px;
-  padding: 40px;
+  padding: 35px;
   width: 100%;
   max-width: 340px;
   box-shadow: 0 0 10px rgba(88, 166, 255, 0.2);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+  
 }
 
 .project-card:hover {
   transform: translateY(-8px);
-  box-shadow: 0 0 20px rgba(88, 166, 255, 0.4);
+  box-shadow: 0 0 20px rgba(255, 213, 0, 0.926);
 }
 
 .project-card img {
@@ -43,7 +51,7 @@
 
 .project-card h3 {
   font-size: 1.3rem;
-  color: #58a6ff;
+  color: #ffbf00;
   margin-bottom: 10px;
 }
 
@@ -62,8 +70,8 @@
 
 .project-links a {
   text-decoration: none;
-  color: #58a6ff;
-  border: 1px solid #58a6ff;
+  color: #e7eaed;
+  border: 3px solid #ffbf00;
   padding: 8px 14px;
   border-radius: 8px;
   font-size: 0.9rem;
@@ -71,7 +79,7 @@
 }
 
 .project-links a:hover {
-  background: #58a6ff;
+  background: #ffbf00;
   color: #0d1117;
 }
 

@@ -26,7 +26,7 @@ function Skills() {
       ref={ref}
       className={`skills reveal ${isVisible ? "visible" : ""}`}
       style={{
-        backgroundImage: `linear-gradient(rgba(13,17,23,0.85), rgba(13,17,23,0.85)), url(${skillsBg})`,
+        backgroundImage: `linear-gradient(rgba(13,17,23,0.50), rgba(13,17,23,0.50)), url(${skillsBg})`,
       }}
     >
       <h2>Skills</h2>

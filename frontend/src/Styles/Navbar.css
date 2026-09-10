@@ -2,8 +2,8 @@
     background: rgba(13, 17, 23, 0.35);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
-    border-bottom: 1px solid rgba(88, 166, 255, 0.15);
-    padding: 18px 40px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+    padding: 22px 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -26,7 +26,7 @@
 }
 
 .logo:hover {
-    color: #58a6ff;
+    color: #ffbf00;
 }
 
 .nav-links {
@@ -48,23 +48,23 @@
 }
 
 .nav-links a:hover {
-    color: #58a6ff;
+    color: #ffbf00;
 }
 
 .resume-btn {
     color: #ffffff;
     text-decoration: none;
-    border: 1px solid #58a6ff;
+    border: 1px solid #ffc0037b;
     padding: 8px 16px;
     border-radius: 6px;
     font-size: 0.95rem;
     background: rgba(88, 166, 255, 0.12);
-    transition: background-color 0.3s ease, color 0.3s ease;
+    transition: background-color 0.2s ease, color 0.3s ease;
     white-space: nowrap;
 }
 
 .resume-btn:hover {
-    background-color: #58a6ff;
+    background-color: #ffbf00;
     color: #0d1117;
 }
 
@@ -73,7 +73,7 @@
     display: none;
     flex-direction: column;
     justify-content: center;
-    gap: 5px;
+    gap: 10px;
     background: none;
     border: none;
     cursor: pointer;

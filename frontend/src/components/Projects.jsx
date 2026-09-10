@@ -38,7 +38,7 @@ function Projects() {
       ref={ref}
       className={`projects reveal ${isVisible ? "visible" : ""}`}
       style={{
-        backgroundImage: `linear-gradient(rgba(13,17,23,0.85), rgba(13,17,23,0.85)), url(${projectsBg})`,
+        backgroundImage: `linear-gradient(rgba(13,17,23,0.5), rgba(13,17,23,0.5)), url(${projectsBg})`,
       }}
     >
       <h2>Projects</h2>

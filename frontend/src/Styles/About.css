@@ -1,39 +1,44 @@
 .about {
   background-color: #0d1117;
   font-size: large;
-  color: #e6edf3;
-  padding: 120px 30px;
+  color: #ffbf00;
+  padding: 5px 30px;
+  min-height: 90vh;
+  box-sizing: border-box;
   display: flex;
-  flex-direction: column;
+  flex-direction:column;
   align-items: center;
+  justify-content: stretch;
   text-align: center;
+  text-decoration:none;
+  
 }
 
 .about h2 {
-  font-size: 3rem;
-  color: #58a6ff;
-  margin-bottom: 30px;
+  font-size: 3.2rem;
+  color: #ffbf00;
+  margin-bottom: 20px;
   position: relative;
 }
 
 .about h2::after {
   content: "";
   display: block;
-  width: 60px;
-  height: 3px;
-  background: #58a6ff;
-  margin: 10px auto 0;
+  width: 80px;
+  height: 2px;
+  background: #ffbf00;
+  margin: 6px auto 0;
   border-radius: 5px;
 }
 
 .about-content,
 .about-text {
-  max-width: 700px;
+  max-width: 1400px;
   line-height: 1.8;
-  font-size: 1.05rem;
-  color: #c9d1d9;
-  margin: 0 auto 20px auto;
-  text-align: left;
+  font-size: 1.25rem;
+  color: #ffbf00;
+  margin: 0 auto 0px auto;
+  text-align: justify;
 }
 
 .about-highlight {
@@ -46,15 +51,15 @@
   width: 160px;
   height: 160px;
   object-fit: cover;
-  border: 3px solid #58a6ff;
+  border: 3px solid #ffbf00;
   margin-bottom: 25px;
-  box-shadow: 0 0 15px rgba(88, 166, 255, 0.3);
+  box-shadow: 0 0 15px rgba(250, 204, 0, 0.3);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .about-photo:hover {
   transform: scale(1.05);
-  box-shadow: 0 0 25px rgba(88, 166, 255, 0.5);
+  box-shadow: 0 0 25px rgb(255, 204, 0);
 }
 
 /* Button / CV Link */

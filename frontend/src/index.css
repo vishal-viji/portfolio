@@ -7,11 +7,11 @@ body {
 }
 
 h1, h2 {
-  color: #58a6ff;
+  color: #ffbf00;
 }
 
 section {
-  padding: 60px 10%;
+  padding: 50px 10%;
   scroll-margin-top: 80px;
 }
 
@@ -21,7 +21,7 @@ a {
 }
 
 .btn {
-  background: #58a6ff;
+  background: #ffbf00;
   color: white;
   padding: 10px 20px;
   border-radius: 8px;
@@ -31,7 +31,7 @@ a {
 
 .btn.secondary {
   background: transparent;
-  border: 1px solid #58a6ff;
+  border: 1px solid #ffbf00;
 }
 
 .hero {
@@ -60,6 +60,7 @@ a {
   text-align: center;
   padding: 20px;
   background: #161b22;
+  
 }
 
 /* ===== Scroll reveal animation ===== */

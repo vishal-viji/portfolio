@@ -15,10 +15,17 @@ import pythonLogo from "../assets/py.png";
 import gitLogo from "../assets/git.png";
 import githubLogo from "../assets/github.png";
 import postmanLogo from "../assets/postman.png";
+import skillsBg from "../assets/backgrounds/skills-bg.jpeg";
 
 function Skills() {
   return (
-    <section id="skills" className="skills">
+    <section
+      id="skills"
+      className="skills"
+      style={{
+        backgroundImage: `linear-gradient(rgba(13,17,23,0.85), rgba(13,17,23,0.85)), url(${skillsBg})`,
+      }}
+    >
       <h2>Skills</h2>
       <ul className="skills-list" align="center"></ul>
 

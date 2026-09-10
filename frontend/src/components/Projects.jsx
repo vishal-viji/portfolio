@@ -1,5 +1,6 @@
 import React from "react";
 import "../Styles/Projects.css";
+import projectsBg from "../assets/backgrounds/projects-bg.jpeg";
 
 function Projects() {
   const projects = [
@@ -30,7 +31,13 @@ function Projects() {
   ];
 
   return (
-    <section id="projects" className="projects">
+    <section
+      id="projects"
+      className="projects"
+      style={{
+        backgroundImage: `linear-gradient(rgba(13,17,23,0.85), rgba(13,17,23,0.85)), url(${projectsBg})`,
+      }}
+    >
       <h2>Projects</h2>
       <div className="project-grid">
         {projects.map((p, i) => (

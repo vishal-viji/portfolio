@@ -12,6 +12,7 @@ h1, h2 {
 
 section {
   padding: 60px 10%;
+  scroll-margin-top: 80px;
 }
 
 a {
@@ -31,23 +32,6 @@ a {
 .btn.secondary {
   background: transparent;
   border: 1px solid #58a6ff;
-}
-
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 15px 10%;
-  background: #161b22;
-  position: sticky;
-  top: 0;
-  z-index: 100;
-}
-
-.nav-links {
-  display: flex;
-  gap: 20px;
-  list-style: none;
 }
 
 .hero {
@@ -76,4 +60,16 @@ a {
   text-align: center;
   padding: 20px;
   background: #161b22;
+}
+
+@media (max-width: 768px) {
+  section {
+    padding: 40px 6%;
+  }
+}
+
+@media (max-width: 480px) {
+  section {
+    padding: 30px 5%;
+  }
 }

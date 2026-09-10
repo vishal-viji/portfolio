@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "../Styles/Contact.css";
+import contactBg from "../assets/backgrounds/contact-bg.jpeg";
 
 // Base URL of your deployed backend API.
 // Set REACT_APP_API_URL in a .env file (or your Netlify site's env vars).
@@ -56,7 +57,13 @@ function Contact() {
   };
 
   return (
-    <section id="contact" className="contact">
+    <section
+      id="contact"
+      className="contact"
+      style={{
+        backgroundImage: `linear-gradient(rgba(13,17,23,0.85), rgba(13,17,23,0.85)), url(${contactBg})`,
+      }}
+    >
       <h2>Contact Me</h2>
       <p>Let’s build something amazing together!</p>
 

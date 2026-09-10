@@ -20,11 +20,11 @@
 }
 
 .skills-logos {
-  margin-top: 80px;
+  margin-top: 60px;
   display:  flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 80px;
+  gap: 50px;
 }
 
 .skills-logos img {
@@ -41,9 +41,23 @@
 }
 
 .skills {
-  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('/images/skills-bg.jpeg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .skills {
+    padding: 80px 20px;
+  }
+
+  .skills-logos {
+    gap: 30px;
+    margin-top: 40px;
+  }
+
+  .skills-logos img {
+    width: 70px;
+    height: 70px;
+  }
 }

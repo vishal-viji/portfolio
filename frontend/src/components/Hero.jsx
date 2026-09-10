@@ -1,9 +1,16 @@
 import React from 'react';
 import '../Styles/Hero.css';
+import heroBg from '../assets/backgrounds/hero-bg.jpeg';
 
 function Hero() {
   return (
-    <section className="hero">
+    <section
+      id="home"
+      className="hero"
+      style={{
+        backgroundImage: `linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url(${heroBg})`,
+      }}
+    >
       <h1>Hi, I’m <span>Vishal</span>👋</h1>
       <h2>Full Stack Developer | Node.js Enthusiast |React developer</h2>
       <p className='heroclass'>I build responsive web applications using React, Node.js, and MongoDB.</p>

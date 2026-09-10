@@ -1,11 +1,18 @@
 import React from "react";
 import "../Styles/About.css";
 import profilePhoto from "../assets/vishal.png";
+import aboutBg from "../assets/backgrounds/about-bg.jpeg";
 
 
 function About() {
   return (
-    <section id="about" className="about">
+    <section
+      id="about"
+      className="about"
+      style={{
+        backgroundImage: `linear-gradient(rgba(13,17,23,0.88), rgba(13,17,23,0.88)), url(${aboutBg})`,
+      }}
+    >
       <h2>About Me</h2>
       <img src={profilePhoto} alt="Vishal" className="about-photo" />
       <p className="about-text" align="justify">

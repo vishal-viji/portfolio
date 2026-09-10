@@ -16,12 +16,15 @@ import gitLogo from "../assets/git.png";
 import githubLogo from "../assets/github.png";
 import postmanLogo from "../assets/postman.png";
 import skillsBg from "../assets/backgrounds/skills-bg.jpeg";
+import useScrollReveal from "../hooks/useScrollReveal";
 
 function Skills() {
+  const [ref, isVisible] = useScrollReveal();
   return (
     <section
       id="skills"
-      className="skills"
+      ref={ref}
+      className={`skills reveal ${isVisible ? "visible" : ""}`}
       style={{
         backgroundImage: `linear-gradient(rgba(13,17,23,0.85), rgba(13,17,23,0.85)), url(${skillsBg})`,
       }}

@@ -2,20 +2,24 @@ import React from "react";
 import "../Styles/About.css";
 import profilePhoto from "../assets/vishal.png";
 import aboutBg from "../assets/backgrounds/about-bg.jpeg";
+import useScrollReveal from "../hooks/useScrollReveal";
 
 
 function About() {
+  const [ref, isVisible] = useScrollReveal();
+
   return (
     <section
       id="about"
-      className="about"
+      ref={ref}
+      className={`about reveal ${isVisible ? "visible" : ""}`}
       style={{
         backgroundImage: `linear-gradient(rgba(13,17,23,0.88), rgba(13,17,23,0.88)), url(${aboutBg})`,
       }}
     >
       <h2>About Me</h2>
       <img src={profilePhoto} alt="Vishal" className="about-photo" />
-      <p className="about-text" align="justify">
+      <p className="about-text">
         Hi! I’m Vishal, a passionate Full Stack Developer and a B.Sc. Statistics
         undergraduate at PSG College of Arts & Science, Coimbatore. I love
         transforming ideas into interactive, user-friendly web applications. My

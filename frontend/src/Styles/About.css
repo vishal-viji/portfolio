@@ -28,12 +28,12 @@
 
 .about-content,
 .about-text {
-  max-width: 800px;
+  max-width: 700px;
   line-height: 1.8;
   font-size: 1.05rem;
   color: #c9d1d9;
-  margin-bottom: 20px;
-  animation: fadeIn 1s ease-in-out;
+  margin: 0 auto 20px auto;
+  text-align: left;
 }
 
 .about-highlight {

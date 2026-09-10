@@ -1,8 +1,10 @@
 import React from "react";
 import "../Styles/Projects.css";
 import projectsBg from "../assets/backgrounds/projects-bg.jpeg";
+import useScrollReveal from "../hooks/useScrollReveal";
 
 function Projects() {
+  const [ref, isVisible] = useScrollReveal();
   const projects = [
     {
       title: "Social Media App",
@@ -33,7 +35,8 @@ function Projects() {
   return (
     <section
       id="projects"
-      className="projects"
+      ref={ref}
+      className={`projects reveal ${isVisible ? "visible" : ""}`}
       style={{
         backgroundImage: `linear-gradient(rgba(13,17,23,0.85), rgba(13,17,23,0.85)), url(${projectsBg})`,
       }}

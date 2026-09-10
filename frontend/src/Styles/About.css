@@ -107,3 +107,10 @@
     font-size: 0.9rem;
   }
 }
+
+.about {
+  background-image: linear-gradient(rgba(255,255,255,0.9), rgba(255,255,255,0.9)), url('/images/about-bg.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}

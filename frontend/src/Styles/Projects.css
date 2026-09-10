@@ -82,3 +82,11 @@
   gap: 8px;
   align-items: center;
 } 
+
+
+.projects {
+  background-image: linear-gradient(rgba(255,255,255,0.85), rgba(255,255,255,0.85)), url('/images/projects-bg.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}

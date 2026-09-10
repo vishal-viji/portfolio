@@ -39,3 +39,11 @@
   transform: scale(1.15);
   filter: grayscale(0%);
 }
+
+.skills {
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('/images/skills-bg.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #fff;
+}

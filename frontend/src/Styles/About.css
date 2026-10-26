@@ -17,7 +17,7 @@
 .about h2 {
   font-size: 3.2rem;
   color: #ffbf00;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   position: relative;
 }
 
@@ -35,7 +35,7 @@
 .about-text {
   max-width: 1400px;
   line-height: 1.8;
-  font-size: 1.25rem;
+  font-size: 1.14rem;
   color: #ffbf00;
   margin: 0 auto 0px auto;
   text-align: justify;

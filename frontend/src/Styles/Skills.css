@@ -38,7 +38,7 @@
   height: 100px;
   object-fit: contain;
   transition: transform 0.3s ease, filter 0.3s ease;
-  filter: grayscale(60%);
+  filter: grayscale(10%);
 }
 
 .skills-logos img:hover {
